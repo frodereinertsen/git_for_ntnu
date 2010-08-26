@@ -3,7 +3,7 @@ PS1=":- "
 clear
 echo " --- Agenda --- "
 echo ""
-for fn in *; do
+for fn in `ls *.sh`; do
   substring_length=$((${#fn}-5))
   substring_name=${fn:2:substring_length}
   name_without_underscore=${substring_name//_/ }
