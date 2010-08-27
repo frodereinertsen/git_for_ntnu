@@ -1,0 +1,4 @@
+Hvorfor bruker en versjonskontroll?
+For å ta vare på filene sine
+Hva vil det si at den er distribuert?
+Alle kan være server
