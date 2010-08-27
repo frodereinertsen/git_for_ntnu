@@ -23,6 +23,10 @@ title() {
   newline
 }
 
+image() {
+  feh -FZ images/$1 &
+}
+
 super_title() {
   cd $PRESENTATION_HOME/../lib/figlet222
   ./figlet -c $1
@@ -31,5 +35,9 @@ super_title() {
 
 set_prompt() {
   PS1=$1
+}
+
+wait_for_enter() {
+  read WAIT
 }
 
