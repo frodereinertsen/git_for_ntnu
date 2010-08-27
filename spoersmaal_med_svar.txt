@@ -1,4 +1,4 @@
 Hvorfor bruker en versjonskontroll?
-Fordi det er fett!
+Fordi det er fett
 Hva vil det si at den er distribuert?
-Alle kan være server.
+At du kan være server
