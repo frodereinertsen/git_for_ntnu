@@ -1,4 +1,4 @@
 Hvorfor bruker en versjonskontroll?
-init
+Fordi det er fett!
 Hva vil det si at den er distribuert?
-pwd
+Alle kan være server.
