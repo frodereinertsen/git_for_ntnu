@@ -1,4 +1,4 @@
 Hvorfor bruker en versjonskontroll?
-For å ta vare på filene sine
+init
 Hva vil det si at den er distribuert?
-Alle kan være server
+pwd
