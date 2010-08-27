@@ -1,4 +1,2 @@
 Hvorfor bruker en versjonskontroll?
-
-Hva vil det si at den er distribuert?
-
+Hvorfor bruker en versjonskontroll?

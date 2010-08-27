@@ -24,7 +24,7 @@ title() {
 }
 
 image() {
-  feh -FZ images/$1 &
+  feh -FZ images/$1
 }
 
 super_title() {
