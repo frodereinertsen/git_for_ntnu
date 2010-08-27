@@ -1,8 +1,8 @@
 #!/bin/bash
 source scripts/include.sh
 
+super_title "Agenda"
 set_prompt ":-) "
-title "Agenda"
 
 cd $PRESENTATION_HOME
 for fn in `ls scripts/innhold*.sh`; do

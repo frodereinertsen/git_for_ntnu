@@ -24,3 +24,5 @@ git add spoersmaal_med_svar.txt
 git commit -m "Verdifulle svar må tas vare på!"
 git push
 
+. 2
+

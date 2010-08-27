@@ -8,4 +8,3 @@ super_title "Git og GitHub"
 alias init=". scripts/init.sh"
 alias agenda=". scripts/agenda.sh"
 
-
