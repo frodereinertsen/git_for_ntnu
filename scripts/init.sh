@@ -1,19 +1,11 @@
 #!/bin/bash
-PS1=""
-clear
-echo "Distribuert versjonskontroll med"
-echo ""
+source scripts/include.sh
 
-super_title() {
-  cd ../lib/figlet222
-  ./figlet -c $1
-  cd ../../git_for_ntnu
-}
-
+set_prompt ""
+title "Distribuert versjonskontroll med"
 super_title "Git og GitHub"
 
-for fn in `ls agenda*.sh`; do
-  agenda_number=${fn:7:1}
-  alias $agenda_number=". ./$fn"
-done
+alias init=". scripts/init.sh"
+alias agenda=". scripts/agenda.sh"
+
 
