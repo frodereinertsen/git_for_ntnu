@@ -1,4 +1,4 @@
 Hvorfor bruker en versjonskontroll?
 asdf
 Hva vil det si at den er distribuert?
-asdf
+jklø
