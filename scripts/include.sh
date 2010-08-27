@@ -2,20 +2,24 @@ export PRESENTATION_HOME=`pwd`
 cd $PRESENTATION_HOME
 clear
 
+say() {
+  echo $1
+}
+
 newline() {
-  if [ -z "$1" ] then
+  if [ -z "$1" ]; then
     n=1
   else
     n=$1  
   fi
 
   for i in `seq 1 $1`; do
-    echo ""
+    say ""
   done
 }
 
 title() {
-  echo " --- $1 --- "
+  say " --- $1 --- "
   newline
 }
 
