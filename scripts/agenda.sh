@@ -9,7 +9,7 @@ for fn in `ls scripts/innhold*.sh`; do
   substring_length=$((${#fn}-19))
   substring_name=${fn:16:substring_length}
   name_without_underscore=${substring_name//_/ }
-  say "$name_without_underscore"  
+  red "$name_without_underscore"  
 done
 
 newline
