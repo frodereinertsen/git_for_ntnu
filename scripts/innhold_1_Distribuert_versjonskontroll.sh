@@ -32,7 +32,7 @@ say_and_wait " - det muliggjør en$COL_RED fleksibel organisering$COL_RESET av p
 
 image "distributed/fleksibel_organisering.png"
 
-say_and_wait " - den gjør det enklere å håndtere$COL_RED samtidige versjoner$COL_RESET av prosjekter"
+say_and_wait " - den gjør det enklere/er laget for å håndtere$COL_RED samtidige versjoner$COL_RESET i prosjekter"
 
 
 video spend_time_with_your_family.flv
