@@ -8,10 +8,8 @@ say ""
 
 cd $PRESENTATION_HOME
 
-red "Slides"
-say "Demo"
+say "Slides"
+red "Demo"
 say "Do a service for me"  
-
-alias gudfaren="video service.mp4"
 
 
